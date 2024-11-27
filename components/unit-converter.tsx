@@ -8,7 +8,6 @@ import { Button } from "./ui/button"
 
 // Define types for better TypeScript support
 type UnitCategory = 'length' | 'weight' | 'volume';
-type ConversionRates = Record<string, number>;
 
 export default function UnitConverter() {
     // Define conversion rates for each unit category
