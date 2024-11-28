@@ -1,7 +1,9 @@
-import UnitConverter from "@/components/unit-converter";
+'use client'
+
+import HtmlViewer from "@/components/html-viewer";
+
 
 export default function Home() {
   return (<div>
-<UnitConverter/>    
-  </div>  );
+<HtmlViewer/>  </div>  );
 }
